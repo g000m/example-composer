@@ -8,5 +8,8 @@
     ],
     "require": {
         "monolog/monolog": "~2.1.0"
-    }
+    },
+	"scripts": {
+		"env-test": "ExampleComposer\\Debug::inspectEnvironmentVariables"
+	}
 }
